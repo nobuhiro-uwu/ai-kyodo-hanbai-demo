@@ -1,0 +1,306 @@
+{
+ "defaultSeed": "drand-6661286-6276663aeec010a6",
+ "note": "事前登録した種(drand ラウンド 6661286)で出した最終の結果です。計算は事前登録のコミット cacab2ae0c8b7f9199688a0f682660cb2b6cb3e9 の中身で回しました。",
+ "notes": {
+  "drand-6661286-6276663aeec010a6": "事前登録した種(drand ラウンド 6661286)で出した最終の結果です。計算は事前登録のコミット cacab2ae0c8b7f9199688a0f682660cb2b6cb3e9 の中身で回しました。",
+  "dev-7": "開発用の種(事前登録の前の試し)です。最終の結果ではありません。"
+ },
+ "entries": [
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-glut.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "glut",
+   "takeShare": 0.5,
+   "reps": 100,
+   "days": 7
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 100,
+   "days": 7
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-short.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "short",
+   "takeShare": 0.5,
+   "reps": 100,
+   "days": 7
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-glut.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "glut",
+   "takeShare": 0.5,
+   "reps": 100,
+   "days": 7
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 100,
+   "days": 7
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-short.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "short",
+   "takeShare": 0.5,
+   "reps": 100,
+   "days": 7
+  },
+  {
+   "file": "trial7-dev-7-backhaul-t0.5-glut.json",
+   "seedLabel": "dev-7",
+   "mode": "backhaul",
+   "scenario": "glut",
+   "takeShare": 0.5,
+   "reps": 20,
+   "days": 7
+  },
+  {
+   "file": "trial7-dev-7-backhaul-t0.5-normal.json",
+   "seedLabel": "dev-7",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 20,
+   "days": 7
+  },
+  {
+   "file": "trial7-dev-7-backhaul-t0.5-short.json",
+   "seedLabel": "dev-7",
+   "mode": "backhaul",
+   "scenario": "short",
+   "takeShare": 0.5,
+   "reps": 20,
+   "days": 7
+  },
+  {
+   "file": "trial7-dev-7-own-t0.5-glut.json",
+   "seedLabel": "dev-7",
+   "mode": "own",
+   "scenario": "glut",
+   "takeShare": 0.5,
+   "reps": 20,
+   "days": 7
+  },
+  {
+   "file": "trial7-dev-7-own-t0.5-normal.json",
+   "seedLabel": "dev-7",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 20,
+   "days": 7
+  },
+  {
+   "file": "trial7-dev-7-own-t0.5-short.json",
+   "seedLabel": "dev-7",
+   "mode": "own",
+   "scenario": "short",
+   "takeShare": 0.5,
+   "reps": 20,
+   "days": 7
+  }
+ ],
+ "robust": [
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.3-normal-take0.3.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.3,
+   "reps": 50,
+   "days": 7,
+   "cond": "take0.3"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-backhaul20.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "backhaul20"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-cv0.4.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "cv0.4"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-demand0.8.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "demand0.8"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-demand1.25.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "demand1.25"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-drift4.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "drift4"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-margin0.3.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "margin0.3"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-nobias.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "nobias"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.8-normal-take0.8.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "backhaul",
+   "scenario": "normal",
+   "takeShare": 0.8,
+   "reps": 50,
+   "days": 7,
+   "cond": "take0.8"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.3-normal-take0.3.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.3,
+   "reps": 50,
+   "days": 7,
+   "cond": "take0.3"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-cv0.4.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "cv0.4"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-demand0.8.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "demand0.8"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-demand1.25.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "demand1.25"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-drift4.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "drift4"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-margin0.3.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "margin0.3"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-nobias.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "nobias"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-stop2000.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.5,
+   "reps": 50,
+   "days": 7,
+   "cond": "stop2000"
+  },
+  {
+   "file": "trial7-drand-6661286-6276663aeec010a6-own-t0.8-normal-take0.8.json",
+   "seedLabel": "drand-6661286-6276663aeec010a6",
+   "mode": "own",
+   "scenario": "normal",
+   "takeShare": 0.8,
+   "reps": 50,
+   "days": 7,
+   "cond": "take0.8"
+  }
+ ],
+ "sweep": "sweep.json",
+ "human": null,
+ "humans": {},
+ "finals": {
+  "drand-6661286-6276663aeec010a6": "final-drand-6661286-6276663aeec010a6.json"
+ }
+}

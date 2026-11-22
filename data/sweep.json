@@ -1,0 +1,169 @@
+{
+ "seed": "dev-sweep",
+ "day": 1,
+ "scenario": "normal",
+ "draws": 200,
+ "worlds": 1,
+ "learn": false,
+ "methods": [
+  "全部市場",
+  "AI(学ばない)"
+ ],
+ "note": "1日目・普通の日・世界1つ・需要200回。学ぶ方式は入れていない",
+ "rows": [
+  {
+   "mode": "own",
+   "takeShare": 0.1,
+   "marketPayout": 216496,
+   "aiPayout": 224466,
+   "aiVsMarketPct": 3.7,
+   "storeKg": 0,
+   "deliveryPerStoreKg": null,
+   "farmerSharePct": 50.3,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "own",
+   "takeShare": 0.2,
+   "marketPayout": 216496,
+   "aiPayout": 224466,
+   "aiVsMarketPct": 3.7,
+   "storeKg": 0,
+   "deliveryPerStoreKg": null,
+   "farmerSharePct": 50.3,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "own",
+   "takeShare": 0.3,
+   "marketPayout": 216496,
+   "aiPayout": 224185,
+   "aiVsMarketPct": 3.6,
+   "storeKg": 1337,
+   "deliveryPerStoreKg": 26,
+   "farmerSharePct": 50.2,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "own",
+   "takeShare": 0.4,
+   "marketPayout": 216496,
+   "aiPayout": 234006,
+   "aiVsMarketPct": 8.1,
+   "storeKg": 1685,
+   "deliveryPerStoreKg": 21,
+   "farmerSharePct": 52.4,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "own",
+   "takeShare": 0.5,
+   "marketPayout": 216496,
+   "aiPayout": 242313,
+   "aiVsMarketPct": 11.9,
+   "storeKg": 1997,
+   "deliveryPerStoreKg": 17,
+   "farmerSharePct": 54.3,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "own",
+   "takeShare": 0.6,
+   "marketPayout": 216496,
+   "aiPayout": 247324,
+   "aiVsMarketPct": 14.2,
+   "storeKg": 1999,
+   "deliveryPerStoreKg": 17,
+   "farmerSharePct": 55.4,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "own",
+   "takeShare": 0.8,
+   "marketPayout": 216496,
+   "aiPayout": 254397,
+   "aiVsMarketPct": 17.5,
+   "storeKg": 1993,
+   "deliveryPerStoreKg": 17,
+   "farmerSharePct": 57,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "backhaul",
+   "takeShare": 0.1,
+   "marketPayout": 216496,
+   "aiPayout": 235131,
+   "aiVsMarketPct": 8.6,
+   "storeKg": 842,
+   "deliveryPerStoreKg": 10,
+   "farmerSharePct": 52.6,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "backhaul",
+   "takeShare": 0.2,
+   "marketPayout": 216496,
+   "aiPayout": 249811,
+   "aiVsMarketPct": 15.4,
+   "storeKg": 1876,
+   "deliveryPerStoreKg": 10,
+   "farmerSharePct": 55.9,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "backhaul",
+   "takeShare": 0.3,
+   "marketPayout": 216496,
+   "aiPayout": 263965,
+   "aiVsMarketPct": 21.9,
+   "storeKg": 2361,
+   "deliveryPerStoreKg": 10,
+   "farmerSharePct": 59.1,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "backhaul",
+   "takeShare": 0.4,
+   "marketPayout": 216496,
+   "aiPayout": 273514,
+   "aiVsMarketPct": 26.3,
+   "storeKg": 2487,
+   "deliveryPerStoreKg": 10,
+   "farmerSharePct": 61.2,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "backhaul",
+   "takeShare": 0.5,
+   "marketPayout": 216496,
+   "aiPayout": 279663,
+   "aiVsMarketPct": 29.2,
+   "storeKg": 2495,
+   "deliveryPerStoreKg": 10,
+   "farmerSharePct": 62.6,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "backhaul",
+   "takeShare": 0.6,
+   "marketPayout": 216496,
+   "aiPayout": 282989,
+   "aiVsMarketPct": 30.7,
+   "storeKg": 2495,
+   "deliveryPerStoreKg": 10,
+   "farmerSharePct": 63.4,
+   "farmerNowPct": 49.2
+  },
+  {
+   "mode": "backhaul",
+   "takeShare": 0.8,
+   "marketPayout": 216496,
+   "aiPayout": 285568,
+   "aiVsMarketPct": 31.9,
+   "storeKg": 2495,
+   "deliveryPerStoreKg": 10,
+   "farmerSharePct": 63.9,
+   "farmerNowPct": 49.2
+  }
+ ]
+}

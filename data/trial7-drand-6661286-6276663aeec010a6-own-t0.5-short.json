@@ -1,0 +1,340 @@
+{
+ "seedLabel": "drand-6661286-6276663aeec010a6",
+ "reps": 100,
+ "days": 7,
+ "mode": "own",
+ "scenario": "short",
+ "takeShare": 0.5,
+ "cond": null,
+ "world": {},
+ "overrides": {},
+ "methods": [
+  "market",
+  "ruleA",
+  "ruleB",
+  "ruleE",
+  "ruleF",
+  "ruleD",
+  "ruleB_learn",
+  "ruleF_learn",
+  "ruleD_learn",
+  "ai",
+  "ai_learn"
+ ],
+ "ms": 105568,
+ "range": "真ん中90%(上下から同じ数の世界を除く)",
+ "learnEffect": {
+  "ruleD": {
+   "mean": 7248,
+   "p05": 3705,
+   "p95": 11157,
+   "winShare": 1
+  },
+  "ruleB": {
+   "mean": 195,
+   "p05": -4448,
+   "p95": 5220,
+   "winShare": 0.74
+  },
+  "ruleF": {
+   "mean": 4535,
+   "p05": 1782,
+   "p95": 6740,
+   "winShare": 1
+  },
+  "ai": {
+   "mean": 1722,
+   "p05": -149,
+   "p95": 3226,
+   "winShare": 0.94
+  }
+ },
+ "summary": [
+  {
+   "id": "market",
+   "name": "全部市場",
+   "learn": false,
+   "payoutPerDay": 147383,
+   "byDay": [
+    147008,
+    147188,
+    147238,
+    147230,
+    146873,
+    149033,
+    147112
+   ],
+   "wastePerDay": 0,
+   "deliveryPerDay": 0,
+   "storeKgPerDay": 0,
+   "farmerShareOfRetail": 47.1,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 20696,
+    "p05": 16614,
+    "p95": 24549,
+    "winShare": 1
+   }
+  },
+  {
+   "id": "ruleA",
+   "name": "決まりA 近い店から詰める",
+   "learn": false,
+   "payoutPerDay": 88311,
+   "byDay": [
+    87325,
+    87665,
+    87956,
+    89211,
+    88269,
+    90032,
+    87718
+   ],
+   "wastePerDay": 115,
+   "deliveryPerDay": 104220,
+   "storeKgPerDay": 1862,
+   "farmerShareOfRetail": 28.2,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 79768,
+    "p05": 74044,
+    "p95": 85479,
+    "winShare": 1
+   }
+  },
+  {
+   "id": "ruleB",
+   "name": "決まりB 見込みの比で全店に分ける",
+   "learn": false,
+   "payoutPerDay": 109357,
+   "byDay": [
+    108478,
+    108912,
+    109575,
+    109462,
+    108337,
+    111888,
+    108845
+   ],
+   "wastePerDay": 17,
+   "deliveryPerDay": 105461,
+   "storeKgPerDay": 1813,
+   "farmerShareOfRetail": 34.9,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 58723,
+    "p05": 53682,
+    "p95": 64847,
+    "winShare": 1
+   }
+  },
+  {
+   "id": "ruleE",
+   "name": "決まりE 単価の高い品目だけ店へ",
+   "learn": false,
+   "payoutPerDay": 51987,
+   "byDay": [
+    52430,
+    52096,
+    51623,
+    51843,
+    51910,
+    52813,
+    51197
+   ],
+   "wastePerDay": 4,
+   "deliveryPerDay": 103079,
+   "storeKgPerDay": 77,
+   "farmerShareOfRetail": 16.6,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 116092,
+    "p05": 111985,
+    "p95": 120807,
+    "winShare": 1
+   }
+  },
+  {
+   "id": "ruleF",
+   "name": "決まりF 運賃を見てルートを絞る",
+   "learn": false,
+   "payoutPerDay": 160073,
+   "byDay": [
+    158965,
+    159637,
+    159910,
+    161148,
+    160030,
+    161392,
+    159431
+   ],
+   "wastePerDay": 94,
+   "deliveryPerDay": 34740,
+   "storeKgPerDay": 1766,
+   "farmerShareOfRetail": 51.1,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 8006,
+    "p05": 5133,
+    "p95": 10372,
+    "winShare": 1
+   }
+  },
+  {
+   "id": "ruleD",
+   "name": "決まりD(学ばない)",
+   "learn": false,
+   "payoutPerDay": 91873,
+   "byDay": [
+    91040,
+    91498,
+    91668,
+    92550,
+    91795,
+    93563,
+    90995
+   ],
+   "wastePerDay": 95,
+   "deliveryPerDay": 104220,
+   "storeKgPerDay": 1813,
+   "farmerShareOfRetail": 29.3,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 76207,
+    "p05": 71789,
+    "p95": 81237,
+    "winShare": 1
+   }
+  },
+  {
+   "id": "ruleB_learn",
+   "name": "決まりB+学ぶ",
+   "learn": true,
+   "payoutPerDay": 109552,
+   "byDay": [
+    108478,
+    108784,
+    109822,
+    109756,
+    108739,
+    111642,
+    109641
+   ],
+   "wastePerDay": 16,
+   "deliveryPerDay": 105560,
+   "storeKgPerDay": 1813,
+   "farmerShareOfRetail": 35,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 58528,
+    "p05": 53206,
+    "p95": 65095,
+    "winShare": 1
+   }
+  },
+  {
+   "id": "ruleF_learn",
+   "name": "決まりF+学ぶ",
+   "learn": true,
+   "payoutPerDay": 164608,
+   "byDay": [
+    158965,
+    163553,
+    164482,
+    166309,
+    165723,
+    167858,
+    165367
+   ],
+   "wastePerDay": 65,
+   "deliveryPerDay": 34740,
+   "storeKgPerDay": 1699,
+   "farmerShareOfRetail": 52.6,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 3471,
+    "p05": 1894,
+    "p95": 5116,
+    "winShare": 0.99
+   }
+  },
+  {
+   "id": "ruleD_learn",
+   "name": "決まりD+学ぶ",
+   "learn": true,
+   "payoutPerDay": 99121,
+   "byDay": [
+    91040,
+    96729,
+    99035,
+    101138,
+    100896,
+    103637,
+    101372
+   ],
+   "wastePerDay": 65,
+   "deliveryPerDay": 104220,
+   "storeKgPerDay": 1813,
+   "farmerShareOfRetail": 31.6,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 68958,
+    "p05": 65325,
+    "p95": 72138,
+    "winShare": 1
+   }
+  },
+  {
+   "id": "ai",
+   "name": "AI最適化(学ばない)",
+   "learn": false,
+   "payoutPerDay": 166357,
+   "byDay": [
+    165352,
+    166156,
+    165968,
+    167242,
+    166133,
+    167824,
+    165826
+   ],
+   "wastePerDay": 70,
+   "deliveryPerDay": 34740,
+   "storeKgPerDay": 1760,
+   "farmerShareOfRetail": 53.1,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 1722,
+    "p05": -149,
+    "p95": 3226,
+    "winShare": 0.94
+   }
+  },
+  {
+   "id": "ai_learn",
+   "name": "AI最適化+学ぶ",
+   "learn": true,
+   "payoutPerDay": 168079,
+   "byDay": [
+    165352,
+    167846,
+    168139,
+    169139,
+    168054,
+    169905,
+    168120
+   ],
+   "wastePerDay": 48,
+   "deliveryPerDay": 34740,
+   "storeKgPerDay": 1662,
+   "farmerShareOfRetail": 53.7,
+   "farmerShareNow": 48.4,
+   "diffVsAiLearn": {
+    "mean": 0,
+    "p05": 0,
+    "p95": 0,
+    "winShare": 0
+   }
+  }
+ ]
+}

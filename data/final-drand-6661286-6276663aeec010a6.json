@@ -1,0 +1,116 @@
+{
+ "seed": "drand-6661286-6276663aeec010a6",
+ "dev": false,
+ "drand": {
+  "round": 6661286,
+  "randomness": "6276663aeec010a6bf9563de83cdaede736c990fcdf4dc71bf0a54986725791d",
+  "signature": "a5cb2ca9215b17619ee7cc96f25296871997b33f4a57c67384a28d6d58c2d4e827d4fd1ff748dd409aba99a8ba1a671f04c71bf550c54f9194b23229f2ccd4f4602a15ead382aa6c04f007088354c4523871d55679c9d9ee5b31d1d7ad272cc0",
+  "previous_signature": "8221742d17ca3fe8c3d888269cabcee387c480803be457946b85e1548fe0036688f023ce5881f12ffe6214c80ee876dd0742941c419624afe2cf67eadab4067cb817130fdf88e99979180c23581ab87657f4da66140acae13bf0968d355b7494"
+ },
+ "chain": "8990e7a9aaed2ffed73dbd7092123d6f289930540d7651336225dc172e51b2ce",
+ "reps": 100,
+ "robustReps": 50,
+ "days": 7,
+ "takeShare": 0.5,
+ "strong": {
+  "own": "ruleF_learn",
+  "backhaul": "ruleB_learn"
+ },
+ "robust": [
+  {
+   "id": "demand0.8",
+   "label": "本当の需要が見込みの0.8倍(見込みが過大)",
+   "world": "scale=0.8"
+  },
+  {
+   "id": "demand1.25",
+   "label": "本当の需要が見込みの1.25倍(見込みが過小)",
+   "world": "scale=1.25"
+  },
+  {
+   "id": "cv0.4",
+   "label": "日々のぶれが大きい(本当の変動係数0.4。AI の想定は0.25のまま)",
+   "world": "cv=0.4"
+  },
+  {
+   "id": "nobias",
+   "label": "店ごとのずれがない",
+   "world": "biasSd=0"
+  },
+  {
+   "id": "drift4",
+   "label": "店ごとのずれが4日目に入れかわる",
+   "world": "driftDay=4"
+  },
+  {
+   "id": "take0.3",
+   "label": "店が担う量が少ない(受け持ち割合0.3)",
+   "take": 0.3
+  },
+  {
+   "id": "take0.8",
+   "label": "店が担う量が多い(受け持ち割合0.8)",
+   "take": 0.8
+  },
+  {
+   "id": "margin0.3",
+   "label": "店の取り分が30%",
+   "params": "storeMargin=0.3"
+  },
+  {
+   "id": "stop2000",
+   "label": "立ち寄りの費用 1店2,000円(取卸料を別に払う)",
+   "params": "stopFee=2000",
+   "modes": [
+    "own"
+   ]
+  },
+  {
+   "id": "backhaul20",
+   "label": "帰り便の費用 20円/kg",
+   "params": "backhaulPerKg=20",
+   "modes": [
+    "backhaul"
+   ]
+  }
+ ],
+ "record": "# 事前登録の記録(protocol-v1)\n\n- コミット: cacab2ae0c8b7f9199688a0f682660cb2b6cb3e9(タグ protocol-v1、コミットの日時 2026-11-21 10:39:19 JST)\n- 外に残した場所: チームの Slack のチャンネル「#aiフードテックハッカソン」に、本人が40桁を投稿した\n- 投稿の時刻: 2026-11-21 10:40:45 JST(drand ラウンド 6661286 の時刻 2026-11-21 23:00 JST より前)\n- 投稿の40桁が、タグのコミットと同じことを確かめた(11/21、Slack の検索で投稿を読んで照らした)\n- 注意: Slack の投稿は書いた本人が編集・削除できる(編集すると「編集済み」と出る)。チームの人が見た記録として扱う",
+ "workingCommit": "f2f53d7e14269742e9a681a3428f7cfbc8d330a0",
+ "tagCommit": "cacab2ae0c8b7f9199688a0f682660cb2b6cb3e9",
+ "tagDate": "2026-11-21T10:39:19+09:00",
+ "allowedChanges": [
+  "docs/protocol-v1-record.md"
+ ],
+ "files": [
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-short.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-glut.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-short.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-glut.json"
+ ],
+ "robustFiles": [
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-demand0.8.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-demand0.8.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-demand1.25.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-demand1.25.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-cv0.4.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-cv0.4.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-nobias.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-nobias.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-drift4.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-drift4.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.3-normal-take0.3.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.3-normal-take0.3.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.8-normal-take0.8.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.8-normal-take0.8.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-margin0.3.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-margin0.3.json",
+  "trial7-drand-6661286-6276663aeec010a6-own-t0.5-normal-stop2000.json",
+  "trial7-drand-6661286-6276663aeec010a6-backhaul-t0.5-normal-backhaul20.json"
+ ],
+ "human": null,
+ "bunVersion": "1.3.14",
+ "ms": 1522172,
+ "generatedAt": "2026-11-22T01:04:35.976Z"
+}
